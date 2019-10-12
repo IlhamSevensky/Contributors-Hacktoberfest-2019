@@ -61,7 +61,7 @@ body {
   width: 250px;
   min-width: 200px;
   min-height: 250px;
-  padding: 30px 0 40px 0;
+  padding: 30px 10px 40px 10px;
   margin: 30px;
   /* background-image: linear-gradient(0deg, rgba(0, 175, 255, 1) 27.9%, rgba(0, 224, 254, 1) 84.2%); */
   background-color: #fff;
@@ -116,4 +116,15 @@ body {
 .contributors-card:hover .picture img {
   box-shadow: 0 0 0 14px yellow;
   transform: scale(0.7);
+}
+
+.contributors-content h4.role {
+  color: #242424;
+}
+
+.contributors-content h4.role,
+.contributors-content h3.name {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
