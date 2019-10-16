@@ -105,12 +105,14 @@ body {
 }
 
 .contributors-card .picture img {
-  width: 100%;
-  height: auto;
+  height: 130px;
+  width: 130px;
   border-radius: 50%;
   transform: scale(1);
   transition: all 0.9s ease 0s;
   border: 5px solid #1369ce;
+  background-position: center center;
+  object-fit: cover;
 }
 
 .contributors-card:hover .picture img {
